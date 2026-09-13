@@ -1,0 +1,13 @@
+GPT-Tally Connect Pro V2 test report
+====================================
+
+Static Python compilation: PASS
+Unit/integration tests: 12/12 PASS
+Editable package install (--no-deps --no-build-isolation): PASS
+CLI create-job smoke test: PASS
+CLI preview smoke test: PASS
+ZIP integrity test: PASS (performed after archive creation)
+
+Note: the sandbox has no live TallyPrime instance. These tests validate the
+engine with a mocked Tally gateway; LIVE_ACCEPTANCE_TEST.md is the final
+live-PC test against a backed-up Tally test company.
