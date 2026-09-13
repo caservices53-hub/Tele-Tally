@@ -1,0 +1,11 @@
+[
+  {
+    "date": "2026-09-10",
+    "voucher type": "Sales",
+    "party": "ABC Customer",
+    "reference": "INV-001",
+    "narration": "Being goods sold as per invoice INV-001",
+    "entries_json": "[{\"ledger\":\"ABC Customer\",\"amount\":11800,\"bill_name\":\"INV-001\",\"bill_type\":\"New Ref\"},{\"ledger\":\"Output CGST\",\"amount\":-900},{\"ledger\":\"Output SGST\",\"amount\":-900}]",
+    "items_json": "[{\"item\":\"Demo Item\",\"quantity\":100,\"rate\":100,\"unit\":\"Nos\",\"ledger\":\"Sales\",\"godown\":\"Main Location\",\"batch\":\"Primary Batch\"}]"
+  }
+]
