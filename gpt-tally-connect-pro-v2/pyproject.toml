@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "gpt-tally-connect-pro-v2"
-version = "0.2.0"
+version = "0.3.0"
 description = "Local-first AI-assisted bulk accounting engine for TallyPrime"
 requires-python = ">=3.10"
 dependencies = [
@@ -19,6 +19,7 @@ all = ["mcp>=1.9,<2", "uvicorn>=0.30,<1", "starlette>=0.40,<1", "openai>=1.0,<3"
 [project.scripts]
 gpt-tally = "gpt_tally_v2.cli:main"
 gpt-tally-mcp = "gpt_tally_v2.mcp_server:main"
+gpt-tally-bridge = "gpt_tally_v2.bridge_server:main"
 
 [tool.setuptools.packages.find]
 include = ["gpt_tally_v2*"]
